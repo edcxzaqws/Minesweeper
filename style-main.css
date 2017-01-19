@@ -1,0 +1,32 @@
+body {
+    cursor: default;
+}
+
+#map {
+    //prevents any selection
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td.mine {
+    text-align: center;
+    font-family: "Arial";
+}
+
+td {
+    font-family: monospace;
+}
+
+#help {
+    color: #000;
+    position: absolute;
+    top: 525px;
+}
